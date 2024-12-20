@@ -1,0 +1,39 @@
+# Configuración específica de NetBeans
+nbproject/private/
+nbproject/Build/
+nbproject/Build.xml
+nbproject/genfiles.properties
+build/
+dist/
+
+# Archivos compilados
+*.class
+
+# Archivos generados
+*.log
+*.out
+*.bak
+
+# Dependencias externas (si están fuera de tu control)
+lib/*.jar
+
+# Archivos de configuración sensibles
+*.env
+*.key
+*.crt
+*.p12
+*.pem
+
+# SQL Developer (si decides usarlo)
+*.sqlj
+*.connections.xml
+.history/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Otros
+.idea/
+*.iml
+*.vscode/
